@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "chai": "^5.1.0"
+  },
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^10.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:watch":"mocha --watch ./test/new_test.js ./game-logic/new_method.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
